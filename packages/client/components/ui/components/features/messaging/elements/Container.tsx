@@ -154,6 +154,7 @@ const base = cva({
     mentioned: {
       true: {
         background: "var(--md-sys-color-primary-container)",
+        color: "var(--md-sys-color-on-primary-container)",
       },
     },
     highlight: {
@@ -187,6 +188,7 @@ const base = cva({
 
         "&:hover": {
           background: "var(--md-sys-color-surface-container)",
+          color: "var(--md-sys-color-on-surface)",
         },
       },
       hide: {},
